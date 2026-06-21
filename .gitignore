@@ -1,0 +1,14 @@
+# Ignore everything by default
+*
+
+# Allow only explicitly listed files and directories
+!.gitignore
+!CLAUDE.md
+!README.md
+!settings.json
+!hooks/
+!hooks/**
+!skills/
+skills/*
+!skills/agent-handoff/
+!skills/agent-handoff/**
